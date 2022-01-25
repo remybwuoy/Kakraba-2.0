@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cc9d7e3a937c2159bcd905d3f40653ef",
+    "packages": [
+        {
+            "name": "sheetdb/sheetdb-php",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sheetdb/sheetdb-php.git",
+                "reference": "1cc8d76e6377adcce71f8c58f3de1f2e3a146e8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sheetdb/sheetdb-php/zipball/1cc8d76e6377adcce71f8c58f3de1f2e3a146e8d",
+                "reference": "1cc8d76e6377adcce71f8c58f3de1f2e3a146e8d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SheetDB\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "SheetDB",
+                    "email": "support@sheetdb.io"
+                }
+            ],
+            "description": "PHP Library for accessing google spreadsheet content via SheetDB. https://sheetdb.io",
+            "support": {
+                "issues": "https://github.com/sheetdb/sheetdb-php/issues",
+                "source": "https://github.com/sheetdb/sheetdb-php/tree/1.0.3"
+            },
+            "time": "2020-04-11T14:38:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "sheetdb/sheetdb-php": "^1.0"
+    }
+}
