@@ -49,7 +49,7 @@ a{
 }
 .product2{
     background-image:linear-gradient(rgba(0, 49, 45, 0.822), rgba(1, 82, 75, 0.822)), url(../images/download.png);
-
+    background-attachment: fixed;
 }
 
 .list{
