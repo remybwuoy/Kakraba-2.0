@@ -47,6 +47,10 @@ a{
     50%  { transform: translate(0, 15px); }
     100%   { transform: translate(0, -0px); }   
 }
+.product2{
+    background-image:linear-gradient(rgba(0, 49, 45, 0.822), rgba(1, 82, 75, 0.822)), url(../images/download.png);
+
+}
 
 .list{
     background-image:linear-gradient(rgba(0, 49, 45, 0.822), rgba(1, 82, 75, 0.822)), url(../images/download.png);
