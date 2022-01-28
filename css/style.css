@@ -138,13 +138,18 @@ ul li{
 }
 @media screen and (max-width: 991px) {
     h1{
-        font-size:20px;
+        font-size:15px;
         text-align: center;
     }
-   button{
+   .header{
         align-items: center;
         text-align: center;
         justify-content:center;
+    }
+    .product1,.product2,.product3 button{
+        align-items: center;
+        text-align: center;
+        justify-content:center;  
     }
     }
 
