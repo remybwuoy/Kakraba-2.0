@@ -146,6 +146,10 @@ ul li{
         text-align: center;
         justify-content:center;
     }
+    .header p{
+        text-align: center;
+
+    }
     .product1,.product2,.product3 button{
         align-items: center;
         text-align: center;
