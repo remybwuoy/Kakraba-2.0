@@ -136,8 +136,15 @@ ul li{
     color: #fff;
     font-size:27px;
 }
-/* @media screen and (max-width: 992px) {
-    .footer p{
-    visibility: hidden;
+@media screen and (max-width: 991px) {
+    h1{
+        font-size:20px;
+        text-align: center;
     }
-} */
+   button{
+        align-items: center;
+        text-align: center;
+        justify-content:center;
+    }
+    }
+
