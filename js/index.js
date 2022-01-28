@@ -1,3 +1,10 @@
+var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
+
 var form = document.getElementById('db-form');
   form.addEventListener("submit", e => {
    var button = document.getElementById("submitBtn");
