@@ -4,7 +4,7 @@ var form = document.getElementById('db-form');
    var button = document.getElementById("submitBtn");
     // button.innerText = 'Submitting';
     // button.disabled = true;
-    // button.style.backgroundColor = "#adadad";
+    button.style.backgroundColor = "#adadad";
     $(document).on('submit', 'form', function(e) {
       $(this).find('button[type="submit"]')
           .html(`<i class="fas fa-spinner fa-spin"></i> Submitting`);
